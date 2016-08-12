@@ -1,68 +1,70 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
 	
-	body {
-		background:#678bb3; 
-		padding:0;
-		margin:0;
-	}
+body {
+	background:#678bb3; 
+	padding:0;
+	margin:0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
 	
-	.fullContainer{
-		width: 100%;
-		height: 100%;
-		overflow: hidden;
-	}
-	
-	.sky {
-		width: 2560px;
-		height: 1600px;
-		background: transparent url(img/sky1.jpg) repeat;
-	
-		position:relative;
-	}
-	.quote{
-		font-size: 50px;
-		color: white;
-		font-family: Oswald;
-		text-transform: uppercase;
-		position: absolute;
-		z-index: 100;
-		letter-spacing:1px;
-		line-height:60px;
-		transform: translate(25%, 480%)
-	}
-	
-	.cloud {
-		width: 100%;
-		height:100%;
-		position:absolute;
-		background:transparent url(img/SW-color.png) no-repeat;
-		background-size: 241px 209px ;
-	}
-	
-	.soup{
-		width: 100%;
-		height:100%;
-		position:absolute;
-		background:transparent url(img/soup-colored.png) no-repeat;
-		background-size: 216px 256px;
-	}
-	
-	.fcloud01 {
-		top: 200px;
-		z-index:100;
-    	animation: drift 8s ease-out infinite;
+}
 
-	}
-			
-	.fcloud02 {
-		top: 900px;
-		z-index: 200;	
-		animation: drift 10s 1s ease-out infinite backwards;			 
-	}
+
+
+.sky {
+	width: 2560px;
+	height: 1600px;
+	background: transparent url(img/sky1.jpg) repeat;
+
+	position:absolute;
+}
+.quote{
+	font-size: 50px;
+	color: white;
+	font-family: Oswald;
+	text-transform: uppercase;
+	position: absolute;
+	z-index: 100;
+	letter-spacing:1px;
+	line-height:60px;
+	/*transform: translate(25%, 250%)*/
+	top: 43%;
+	left: 15%;
+}
+
+.cloud {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: transparent url(img/SW-color.png) no-repeat;
+	background-size: 10% ;
+}
+
+.soup{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: transparent url(img/soup-colored.png) no-repeat;
+	background-size: 8%;
+}
+
+.fcloud01 {
+	top: 15%;
+	z-index: 100;
+	animation: drift 8s ease-out infinite;
+
+}
+		
+.fcloud02 {
+	top: 75%;
+	z-index: 200;	
+	animation: drift 10s 1s ease-out infinite backwards;			 
+}
 
 @keyframes drift {
-	from{transform: translateX(-300px);}
-	to {transform: translateX(2000px);}
+  from{transform: translateX(-300px);}
+  to {transform: translateX(2000px);}
 }
 
 
