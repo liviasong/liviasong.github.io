@@ -8,13 +8,13 @@
 	
 	.fullContainer{
 		width: 100%;
-		height: 3000px;
+		height: 100%;
+		overflow: hidden;
 	}
 	
 	.sky {
-		width: 100%;
-		height: 100%;
-		overflow: hidden;
+		width: 2560px;
+		height: 1600px;
 		background: transparent url(img/sky1.jpg) repeat;
 	
 		position:relative;
