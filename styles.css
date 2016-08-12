@@ -52,19 +52,19 @@ body {
 .fcloud01 {
 	top: 15%;
 	z-index: 100;
-	animation: drift 8s ease-out infinite;
+	animation: drift 5s ease-out infinite;
 
 }
 		
 .fcloud02 {
 	top: 75%;
 	z-index: 200;	
-	animation: drift 10s 1s ease-out infinite backwards;			 
+	animation: drift 7s 1s ease-out infinite backwards;			 
 }
 
 @keyframes drift {
-  from{transform: translateX(-300px);}
-  to {transform: translateX(2000px);}
+  from{transform: translateX(-10%);}
+  to {transform: translateX(110%);}
 }
 
 
