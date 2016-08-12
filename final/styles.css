@@ -15,7 +15,7 @@
 		width: 100%;
 		height: 100%;
 		overflow: hidden;
-		background: transparent url(../../../images/sky1.jpg) repeat;
+		background: transparent url(img/sky1.jpg) repeat;
 	
 		position:relative;
 	}
@@ -35,7 +35,7 @@
 		width: 100%;
 		height:100%;
 		position:absolute;
-		background:transparent url(../../../images/SW-color.png) no-repeat;
+		background:transparent url(img/SW-color.png) no-repeat;
 		background-size: 241px 209px ;
 	}
 	
@@ -43,7 +43,7 @@
 		width: 100%;
 		height:100%;
 		position:absolute;
-		background:transparent url(../../../images/soup-colored.png) no-repeat;
+		background:transparent url(img/soup-colored.png) no-repeat;
 		background-size: 216px 256px;
 	}
 	
